@@ -1,0 +1,135 @@
+---SUYASH DATT DUBEY - STUDENT ID: 29533414 - COMP1202 COURSEWORK---
+Parts Attempted: 1-8 (all)
+Extensions Attempted: 1, 2, 4 (3 extensions)
+Exceptions: Yes
+Files created: "test.txt", "testout.txt" (used in EnigmaFile) & "words.txt" (used in bombe extension)
+
+---PARTS COMPLETED---
+1. Modelling the Plugboard
+   Relevant classes: Plug.java, Plugboard.java
+2. Modelling the Rotors
+   Relevant classes: Rotor.java
+3. Modelling the Reflector
+   Relevant classes: Reflector.java
+4. Modelling Basic Rotors
+   Relevant classes: BasicRotor.java
+5. Modelling the Enigma Machine
+   Relevant classes: EnigmaMachine.java
+6. Reading and Writing files
+   Relevant classes: EnigmaFile.java
+7. Modelling Turnover Rotors
+   Relevant classes: TurnoverRotor.java
+8. Building a Bombe
+   Relevant classes: Bombe.java
+
+
+
+---TEST OUTPUTS---
+Relevant classes: Main.java, EnigmaMachine.java, EnigmaFile.java
+
+
+Creating a new Plug: Uncomment the "creating a plug" section of the code in the Main class. The user if given the option of adding the ends of a plug. These plugs are then added to the plugboard and return true if the 2 plugs entered are the same. Otherwise, they return false if they are distinct.
+Comment again once testing is completed.
+
+
+Test 1: Uncomment the "testing test 1, 2" section in the Main class. In the EnigmaMachine class, uncomment the test 1 method. Run the the Main class.
+The encoded message is: GFWIQH.
+The output expected is: BADGER
+Comment the test 1 method in EnigmaMachine class again.
+
+
+Test 2: In the EnigmaMachine class, uncomment the test 2 method. Run the the Main class.
+The encoded message is: GACIG.
+The output expected is: SNAKE
+Comment the test 2 method in EnigmaMachine class and the "testing tests 1, 2" in the Main class.
+
+
+Test 3: Uncomment the "testing test 3" section in the Main class. The path of the file to be read and written in the EnigmaFile class will need to be edited as required. In the EnigmaMachine, uncomment the test 3 method. Run the main class.
+The encoded message is: OJVAYFGUOFIVOTAYRNIWJYQWMXUEJGXYGIFT
+The output expected is:	THEQUICKBROWNFOXJUMPEDOVERTHELAZYDOG
+Comment the test 3 method in EnigmaMachine class and the "testing test 3" in the Main class.
+
+
+
+---BOMBE CHALLENGES OUTPUT---
+Relevant classes: Bombe.java, Main.java
+
+
+Uncomment the "testing challenges in bombe class" section in the Main class.
+
+
+Challenge 1: Uncomment "testBombe.challenge1()" line for this challenge. This challenge prints various messages containing the word "ANSWER" as well as the unknown plugs. 
+The required output however is: 
+	The decoded message is: DAISYDAISYGIVEMEYOURANSWERDO
+
+	1st Plug: [D-T]
+
+	2nd Plug: [S-A]
+
+
+Comment the "testBombe.challenge1()" line again.
+
+
+Challenge 2: Uncomment "testBombe.challenge2()" line for this challenge. This challenge prints the message containing the word "ELECTRIC" as well as the unknown initial positions of the BasicRotors.
+The expected output is:
+	The decoded message is: WELLALWAYSBETOGETHERHOWEVERFARITSEEMSWELLALWAYSBETOGETHERTOGETHERINELECTRICDREAMS
+	Initial position of 1st Basic Rotor: 3
+	Initial position of 2nd Basic Rotor: 9
+	Initial position of 3rd Basic Rotor: 15
+Comment the "testBombe.challenge2()" line again.
+
+
+Challenge 3: Uncomment "testBombe.challenge2()" line for this challenge. This challenge prints the message containing the word "JAVA" as well as the unknown BasicRotor types.
+The expected output is:
+	The decoded message is: ILOVECOFFEEILOVETEAILOVETHEJAVAJIVEANDITLOVESME
+	Type of 1st Basic Rotor: V
+	Type of 2nd Basic Rotor: III
+	Type of 3rd Basic Rotor: II
+Comment the "testBombe.challenge3()" line again.
+
+Comment the "testing challenges in bombe class" section in the Main class again.
+
+
+---EXTENSIONS(numbered according to the order in the course specifications)---
+Relevant classes: Interface.java, Main.java, Bombe.java
+
+
+Extension 1: This extensions allows a user to type a message one letter at a time and have its translation appear in the command line.
+
+
+Extension 2: This extension is a command line interface for the machine so that the user can specify the plugs, rotor types and initial positions of the basic rotors.
+
+
+Extension 4: This extension is a method that reads a text file containing 1000 common words from the English dictionary and adds them to a ArrayList. It then checks these against the decoded messages so that it can be decoded without actually knowing what the message contains in advance.
+
+
+---RUNNING EXTENSIONS---
+Relevant classes: Interface.java, Main.java, Bombe.java
+
+
+Extension 1 & 2: Run the Interface class. 
+The expected 
+
+
+Extension 4: In the Bombe class, comment the sections as specified. Uncomment the sections which say Extension 4. 
+In the Main class, uncomment the "testing challenges in bombe class" section.
+
+Challenge 1: Uncomment "testBombe.challenge1()" line. Run the Main class to get the output.
+This challenge prints various messages containing the words in the "words.txt" file as well as the unknown plugs.
+Comment "testBombe.challenge1()" line again. 
+
+Challenge 2: Uncomment "testBombe.challenge2()" line. Run the Main class to get the output.
+This challenge prints various messages containing the words in the "words.txt" file as well as the unknown initial positions of the BasicRotors.
+Comment "testBombe.challenge2()" line again.
+
+Challenge 3: Uncomment "testBombe.challenge3()" line. Run the Main class to get the output.
+This challenge prints various messages containing the words in the "words.txt" file as well as the unknown BasicRotor types.
+Comment "testBombe.challenge3()" line again.
+
+
+---JAVA DOC---
+JavaDoc has been created which is attached. This can be used to see the classes and methods in the coursework.
+
+
+---FOOTNOTE---
+The "Toolbox class" provided by the University of Southampton has been used. However, it has been modified according to the requirements for the coursework.
